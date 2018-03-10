@@ -17,9 +17,16 @@
 PRODUCT_COPY_FILES += \
     vendor/honor/bkl/proprietary/lib/drm/libdrmhwomavoneplugin.so:system/lib/drm/libdrmhwomavoneplugin.so \
     vendor/honor/bkl/proprietary/lib64/drm/libdrmhwomavoneplugin.so:system/lib64/drm/libdrmhwomavoneplugin.so \
+    vendor/honor/bkl/proprietary/lib64/hw/hw_af_extend.default.so:system/lib64/hw/hw_af_extend.default.so \
     vendor/honor/bkl/proprietary/lib/android.hidl.base@1.0.so:system/lib/android.hidl.base@1.0.so \
     vendor/honor/bkl/proprietary/lib64/android.hidl.base@1.0.so:system/lib64/android.hidl.base@1.0.so \
+    vendor/honor/bkl/proprietary/lib64/libc_secshared.so:system/lib64/libc_secshared.so \
     vendor/honor/bkl/proprietary/lib/libHidlUtil.so:system/lib/libHidlUtil.so \
     vendor/honor/bkl/proprietary/lib64/libHidlUtil.so:system/lib64/libHidlUtil.so \
+    vendor/honor/bkl/proprietary/lib64/libhuaweicust.so:system/lib64/libhuaweicust.so \
+    vendor/honor/bkl/proprietary/lib64/libsrsprocessing.so:system/lib64/libsrsprocessing.so \
+    vendor/honor/bkl/proprietary/lib64/libsws3_1processing.so:system/lib64/libsws3_1processing.so \
+    vendor/honor/bkl/proprietary/lib64/libsws3processing.so:system/lib64/libsws3processing.so \
+    vendor/honor/bkl/proprietary/lib64/libsws4processing.so:system/lib64/libsws4processing.so \
     vendor/honor/bkl/proprietary/lib/vendor.huawei.hardware.hwfactoryinterface@1.0.so:system/lib/vendor.huawei.hardware.hwfactoryinterface@1.0.so \
     vendor/honor/bkl/proprietary/lib64/vendor.huawei.hardware.hwfactoryinterface@1.0.so:system/lib64/vendor.huawei.hardware.hwfactoryinterface@1.0.so
