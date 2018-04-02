@@ -1,0 +1,4 @@
+service HwServiceHost /system/bin/HwServiceHost kirin970 BKL
+    class main
+    user cameraserver
+    group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm system sdcard_rw
