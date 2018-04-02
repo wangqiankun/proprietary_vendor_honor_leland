@@ -19,6 +19,17 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter bkl,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := HwIms
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES := HwIms/app/HwIms/HwIms.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := HwCamera2
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := camera/bkl/priv-app/HwCamera2/HwCamera2.apk
